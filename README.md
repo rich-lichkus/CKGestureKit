@@ -8,4 +8,4 @@ CKGestureKit
 
 Overview
 --------
-* This project demonstrates how to implement simultaneous gestures to create a dragable imageview. Use to fingers to rotate, pan and zoom.
+* This project demonstrates how to implement simultaneous gestures to create a dragable imageview. Use two fingers to rotate, pan and zoom.
