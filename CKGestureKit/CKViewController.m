@@ -7,23 +7,42 @@
 //
 
 #import "CKViewController.h"
+#import "CKDragableImageView.h"
+
 
 @interface CKViewController ()
+
+@property(strong,nonatomic) CKDragableImageView *dragImage;
 
 @end
 
 @implementation CKViewController
 
+#pragma mark - View
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self configureDragableView];
 }
+
+#pragma mark - Configure Dragable View
+
+-(void)configureDragableView{
+    self.dragImage = [[CKDragableImageView alloc] initWithImage:[UIImage imageNamed:@"profile"]];
+    self.dragImage.frame = CGRectMake(self.view.center.x-40,
+                                      self.view.center.y-50,
+                                      90, 100);
+    
+    [self.view addSubview:self.dragImage];
+}
+
+#pragma mark - Memory
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

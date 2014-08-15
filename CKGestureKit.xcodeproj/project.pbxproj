@@ -21,6 +21,7 @@
 		0FEA8E5A199D4E0000CABE1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEA8E3C199D4DFF00CABE1D /* UIKit.framework */; };
 		0FEA8E62199D4E0000CABE1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA8E60199D4E0000CABE1D /* InfoPlist.strings */; };
 		0FEA8E64199D4E0000CABE1D /* CKGestureKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA8E63199D4E0000CABE1D /* CKGestureKitTests.m */; };
+		0FEA8E6F199D688D00CABE1D /* CKDragableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA8E6E199D688D00CABE1D /* CKDragableImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0FEA8E5F199D4E0000CABE1D /* CKGestureKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CKGestureKitTests-Info.plist"; sourceTree = "<group>"; };
 		0FEA8E61199D4E0000CABE1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0FEA8E63199D4E0000CABE1D /* CKGestureKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKGestureKitTests.m; sourceTree = "<group>"; };
+		0FEA8E6D199D688D00CABE1D /* CKDragableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDragableImageView.h; sourceTree = "<group>"; };
+		0FEA8E6E199D688D00CABE1D /* CKDragableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDragableImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				0FEA8E4A199D4DFF00CABE1D /* Main.storyboard */,
 				0FEA8E4D199D4DFF00CABE1D /* CKViewController.h */,
 				0FEA8E4E199D4DFF00CABE1D /* CKViewController.m */,
+				0FEA8E6D199D688D00CABE1D /* CKDragableImageView.h */,
+				0FEA8E6E199D688D00CABE1D /* CKDragableImageView.m */,
 				0FEA8E50199D4E0000CABE1D /* Images.xcassets */,
 				0FEA8E3F199D4DFF00CABE1D /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				0FEA8E49199D4DFF00CABE1D /* CKAppDelegate.m in Sources */,
 				0FEA8E45199D4DFF00CABE1D /* main.m in Sources */,
+				0FEA8E6F199D688D00CABE1D /* CKDragableImageView.m in Sources */,
 				0FEA8E4F199D4DFF00CABE1D /* CKViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
